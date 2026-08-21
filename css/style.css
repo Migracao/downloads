@@ -114,7 +114,7 @@ p {
     font-weight: 500;
     letter-spacing: 0.5px;
     display: block;
-    margin-top: 8px;
+    margin-top: 20px;
 }
 
 /**** Start Main Body Section ****/
@@ -187,8 +187,9 @@ p {
     font-size: 12px;
     border-top: 3px solid var(--primary-blue);
     flex-shrink: 0;
-    position: sticky;
+    position: fixed;
     bottom: 0;
+    z-index: 9999;
 }
 
 .copyright a {
